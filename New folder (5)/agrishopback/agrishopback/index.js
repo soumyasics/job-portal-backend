@@ -13,5 +13,5 @@ const route=require('./routes')
 app.use('/agri_shop_api',route)
 
 app.listen(4009,()=>{
-    console.log("Server created successfully on 4009");
+    console.log("Server created successfully");
 })
